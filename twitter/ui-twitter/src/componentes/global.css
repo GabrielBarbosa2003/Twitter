@@ -1,0 +1,26 @@
+*{                              /** css global**/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{                           /** variavel para cor do twetter**/
+    --twitter-blue: #1da1f2;
+}
+body{
+    color: #0F1419;
+    -webkit-font-smoothing: antialised;
+}
+body, input, textarea, button{
+    font: 400 1rem Roboto, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: inherit;
+}
+
+
+
+
+

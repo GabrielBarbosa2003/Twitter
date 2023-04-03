@@ -1,0 +1,68 @@
+.formulario{
+    padding: 1.5rem 1.25rem;
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem;
+}
+
+.formulario label{
+    display: flex;
+    gap: 0.75rem;
+}
+
+/** Area principal**/
+.formulario label img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+
+.formulario label textarea{
+    flex: 1;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    resize: none;
+
+}
+
+.formulario label textarea:focus{
+    outline: none;
+}
+
+.formulario label textarea::placeholder{
+    color: #5b7083;
+}
+
+.formulario button{
+    margin-left: auto;
+    background: var(--twitter-blue);
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    border: 0;
+}
+
+.formulario button:hover{
+    filter: brightness(0.95);
+}
+.formulario button:hover svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: none;
+}
+
+@media(max-width: 780px){
+    .formulario button label textarea{
+        font-size: 1rem;
+
+    }
+    .formulario button:hover span{
+        display: none;
+        
+    }
+
+}

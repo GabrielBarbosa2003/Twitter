@@ -1,0 +1,77 @@
+/** side bar **/
+.sidebar{
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar .logo{
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.sidebar .botao{
+    background-color: var(--twitter-blue);
+    border-radius: 999px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    border: 0;
+}
+
+.sidebar .new-tweet svg {
+     width: 1.5rem;
+     height: 1.5rem;
+     display: none;
+}
+
+.sidebar .botao:hover{               /** dá o efeito de escurecer o botao**/
+    filter: brightness(0.95);
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu a{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu a.active{
+    color: var(--twitter-blue);
+}
+.menu a svg{                /** svg é a imagem**/
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (max-width: 780px){ 
+   .sidebar{
+    padding: 1.5rem 0.75rem;
+    align-items: center;
+   }
+   menu a span{
+    display: none;
+
+   }
+   .sidebar .new-tweet span{
+    display:none;
+   }
+
+   .sidebar .new-tweet svg{
+    display:block;
+   }
+}
