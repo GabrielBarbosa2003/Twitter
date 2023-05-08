@@ -1,13 +1,10 @@
-import { FormEvent, KeyboardEvent, useState } from "react"
+import { FormEvent, useState } from "react"
 import { Header } from "../componentes/Header"
 import { Separador } from "../componentes/Separador"
 import { Tweet } from "../componentes/Tweet"
 
 import './timeline.css'
 
-
-
-  let novoTweet = '';
 
   //SPA - Evitar redirecionamentos
   // Sempre que passamos variaveis js para react, sempre usar chaves {};
