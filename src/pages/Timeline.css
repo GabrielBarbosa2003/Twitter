@@ -55,4 +55,14 @@
     display: none;
 }
 
+@media(max-width: 780px){
+    .formulario button label textarea{
+        font-size: 1rem;
 
+    }
+    .formulario button:hover span{
+        display: none;
+        
+    }
+
+}
