@@ -3,7 +3,7 @@ import { Header } from "../componentes/Header"
 import { Separador } from "../componentes/Separador"
 import { Tweet } from "../componentes/Tweet"
 
-import './timeline.css'
+import './Timeline.css'
 
 
   //SPA - Evitar redirecionamentos
