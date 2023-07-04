@@ -24,7 +24,7 @@ O projeto não possui muitas funcionalidades além de poder twittar e responder 
 
 # 🛠️ Abrir e rodar o projeto
 Para rodar o projeto em sua máquina, basta baixar o arquivo, e então executar o comando "npm run dev".
-Porém caso prefira, você pode entrar nesse link e testar o projeto: https://twitter-eight-woad.vercel.app/
+Porém caso prefira, aqui está o link do projeto: https://twitter-eight-woad.vercel.app/
 
 #  Técnicas e tecnologias utilizadas
 * TypeScript
